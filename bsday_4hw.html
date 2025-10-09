@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Featured Page</title>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <body class="bg-light">
+  <div class="container text-center my-4">
+    <h2 class="fw-bold text-primary">Product Feature Page</h2>
+    <p class="text-muted">Explore our top products with exclusive features and details</p>
+  </div>
+  <div class="container mb-5">
+    <div class="row g-4">
+
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="https://images-cdn.ubuy.co.in/66bb010a8314c36a7770e007-pre-owned-apple-iphone-x-carrier.jpg" class="card-img-top" alt="Product 1">
+          <div class="card-body">
+            <h5 class="card-title">Smartphone X</h5>
+            <p class="card-text">Experience blazing-fast performance and stunning display in the new Smartphone X.</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+            
+            <div class="dropdown d-inline ms-2">
+              <button class="btn btn-outline-secondary btn-sm dropdown-toggle" data-toggle="dropdown"> More Options</button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Add to Wishlist</a>
+                <a class="dropdown-item" href="#">Compare</a>
+                <a class="dropdown-item" href="#">Report</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="https://vsprod.vijaysales.com/media/catalog/product/2/3/234641-1_1_.jpg?optimize=medium&fit=bounds&height=500&width=500" class="card-img-top" alt="Product 2">
+          <div class="card-body">
+            <h5 class="card-title">Wireless Headphones</h5>
+            <p class="card-text">Enjoy superior sound quality and comfort with noise cancellation technology.</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+
+            <div class="dropdown d-inline ms-2">
+              <button class="btn btn-outline-secondary btn-sm dropdown-toggle" data-toggle="dropdown">
+                More Options
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Add to Wishlist</a>
+                <a class="dropdown-item" href="#">Compare</a>
+                <a class="dropdown-item" href="#">Report</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card shadow-sm h-100">
+          <img src="https://m.media-amazon.com/images/I/71Sm+xKNZnL.jpg" class="card-img-top" alt="Product 3">
+          <div class="card-body">
+            <h5 class="card-title">Smartwatch Pro</h5>
+            <p class="card-text">Track your fitness goals, monitor your health, and stay connected all day long.</p>
+            <a href="#" class="btn btn-outline-primary btn-sm">Read More</a>
+
+            <div class="dropdown d-inline ms-2">
+              <button class="btn btn-outline-secondary btn-sm dropdown-toggle"  data-toggle="dropdown">
+                More Options
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Add to Wishlist</a>
+                <a class="dropdown-item" href="#">Compare</a>
+                <a class="dropdown-item" href="#">Report</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container mb-5">
+  <h4>Product FAQs</h4>
+  <div class="accordion" id="faqAccordion">
+    <div class="card">
+      <div class="card-header" id="headingOne">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+             What is the warranty period for these products?
+          </button>
+        </h2>
+      </div>
+      <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#faqAccordion">
+        <div class="card-body">
+           All our products come with a 1-year standard warranty. Some premium models may include extended warranty options
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingTwo">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+           Do you provide free shipping?
+          </button>
+        </h2>
+      </div>
+      <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#faqAccordion">
+        <div class="card-body">
+         Yes, we provide free standard shipping on all orders above ₹999. Express delivery options are also available.
+        </div>
+      </div>
+    </div>
+    <div class="card">
+      <div class="card-header" id="headingThree">
+        <h2 class="mb-0">
+          <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+           Can I return a product if I’m not satisfied?
+          </button>
+        </h2>
+      </div>
+      <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
+         <div class="card-body">
+          Absolutely! You can return products within 7 days of delivery if they are unused and in original packaging.
+        </div>
+      </div>
+    </div>
+
+    </div>
+  </div> 
+</body>
+</html>
